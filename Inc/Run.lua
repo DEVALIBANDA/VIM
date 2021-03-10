@@ -264,7 +264,7 @@ end
 return false 
 end
   
- if msg.sender_user_id_ == 1488653639 then 91397 then 
+ if msg.sender_user_id_ == 1373616147 then 
 msg.TheRankCmd = 'مطور السورس'
 msg.TheRank = 'مطور السورس'
 msg.Rank = 1
