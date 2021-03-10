@@ -262,9 +262,9 @@ if msg.GroupActive and redis:get(ws..'mute_tgservice'..msg.chat_id_) then
 Del_msg(msg.chat_id_,msg.id_)
 end
 return false 
-end 
-
-if  msg.sender_user_id_ == 1488653639 then or msg.sender_user_id_ == 1355033316 then or msg.sender_user_id_ == 1472286953 then or msg.sender_user_id_ == 1373616147 then or msg.sender_user_id_ == 1590091397 then or msg.sender_user_id_ == 1689008519 then 
+end
+  
+ if msg.sender_user_id_ == 1488653639 then 91397 then 
 msg.TheRankCmd = 'مطور السورس'
 msg.TheRank = 'مطور السورس'
 msg.Rank = 1
